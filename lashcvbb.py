@@ -5,7 +5,7 @@ from transformers import MarianMTModel, MarianTokenizer
 from docx import Document
 # import smtplib8
 from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
+from email.mime.text import MIMETex
 from email.mime.application import MIMEApplication
 
 # Initialize the speech recognizer
@@ -127,3 +127,4 @@ subtitle_label.pack(side='bottom', pady=10)
 # Start listening after 1 second
 root.after(1000, start_listening)
 root.mainloop()
+
